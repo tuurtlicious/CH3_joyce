@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Space X</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <script type="text/javascript" src="js/cutecats.js"></script>
+         <script type="text/javascript" src="js/weather.js"></script>
+         <script type="text/javascript" src="js/showTime.js"></script>
+    </head>
+
+    <body> 
+      <h1 class="header">SpaceX </h1>
+      <!--The container with all the divs-->
+      <div class="grid-container">
+      <!--Div for the time-->
+         <div id="time" class="grid-item">
+            <h1 class="earthytime">Time on Earth</h1>
+            <div id="clockDisplay"></div>
+            <div id="dateDisplay"></div>
+         </div>
+      <!--Div for the weather-->
+         <div id="weather" class="grid-item">
+            <h1 class="homebasetemp">Temperature of the homebase of the cutest cats</h1>
+         </div>
+      <!--Div for the gifs-->
+         <div id="cutecats" class="grid-item">
+            <h1 class="api3">Cutest cat of the Day</h1>
+            <p class="exp">On a spaceship it is not allowed to have cats, so the travelers are missing out on the cutest cats of earth. </p>
+            <img id="cuteCat">
+            <br>
+            </div>
+      </div>
+   </body>
+</html>
